@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2c70a21-e000-42e7-9f7c-c00abb0b1324" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AstonDevs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AstonLesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AstonLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/AstonLesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AstonDevs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AstonDevs/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     "Application.AstonLesson.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Lesson__2",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/GitHub/AstonDevs",
     "project.structure.last.edited": "Project",
