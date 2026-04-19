@@ -57,9 +57,9 @@ public class Lesson3 {
 
         // 3
         Park centralPark = new Park("Парк развлечений Кырлай");
-        Park.Attraction ferrisWheel = centralPark.new Attraction("Американские горки", "09:00 - 22:00", 250);
+        Park.Attraction ferrisWheel = centralPark.new Attraction("Колесо обозрения", "09:00 - 22:00", 250);
 
-        Park.Attraction rollerCoaster = new Park("Вокруг света").new Attraction("Колесо обозрения", "10:00 - 21:00", 170);
+        Park.Attraction rollerCoaster = new Park("Вокруг света").new Attraction("Американские горки", "10:00 - 21:00", 170);
 
         ferrisWheel.displayInfo();
         rollerCoaster.displayInfo();
