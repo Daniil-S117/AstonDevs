@@ -13,10 +13,16 @@ public class Circle implements Figure {
     public String getName() { return "Круг"; }
 
     @Override
-    public double getArea() { return Math.PI * radius * radius; }
+    public double[] getSides() {
+        // Для круга "сумма сторон" — это и есть длина окружности
+        return new double[]{2 * Math.PI * radius};
+    }
+
+//    @Override
+//    public double getPerimeter() { return 2 * Math.PI * radius; }
 
     @Override
-    public double getPerimeter() { return 2 * Math.PI * radius; }
+    public double getArea() { return Math.PI * radius * radius; }
 
     @Override
     public String getFillColor() { return fillColor; }

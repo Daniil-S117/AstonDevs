@@ -2,13 +2,19 @@ package src;
 
 public interface Figure {
     String getName();
-
-    // Реализация базовых методов, таких как расчет периметра и площади фигур
-    double getArea();
-    double getPerimeter();
-
     String getFillColor();
     String getBorderColor();
+
+    // Реализация базовых методов, таких как расчет периметра и площади фигур
+    double[] getSides();
+    default double getPerimeter() {
+        double sum = 0;
+        for (double side : getSides()) {
+            sum += side;
+        }
+        return sum;
+    }
+    double getArea();
 
     // Метод для вывода полной информации
     default void printInfo() {

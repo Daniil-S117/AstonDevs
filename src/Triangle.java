@@ -15,13 +15,18 @@ public class Triangle implements Figure {
     public String getName() { return "Треугольник"; }
 
     @Override
+    public double[] getSides() {
+        return new double[]{a, b, c}; // Три стороны
+    }
+
+//    @Override
+//    public double getPerimeter() { return a + b + c; }
+
+    @Override
     public double getArea() {
         double p = getPerimeter() / 2;
         return Math.sqrt(p * (p - a) * (p - b) * (p - c)); // Формула Герона
     }
-
-    @Override
-    public double getPerimeter() { return a + b + c; }
 
     @Override
     public String getFillColor() { return fillColor; }

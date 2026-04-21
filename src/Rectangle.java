@@ -14,10 +14,15 @@ public class Rectangle implements Figure {
     public String getName() { return "Прямоугольник"; }
 
     @Override
-    public double getArea() { return width * height; }
+    public double[] getSides() {
+        return new double[]{width, width, height, height}; // Четыре стороны
+    }
+
+//    @Override
+//    public double getPerimeter() { return 2 * (width + height); }
 
     @Override
-    public double getPerimeter() { return 2 * (width + height); }
+    public double getArea() { return width * height; }
 
     @Override
     public String getFillColor() { return fillColor; }
