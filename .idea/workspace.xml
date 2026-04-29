@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2c70a21-e000-42e7-9f7c-c00abb0b1324" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PhoneBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AstonDevs/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AstonDevs/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AstonDevs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AstonDevs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyArrayDataException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyArraySizeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

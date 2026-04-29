@@ -41,8 +41,8 @@ public class Lesson6 {
         System.out.println("\nСледующие студенты были удалены: ");
         for (Student student : students)
             if (student.getAverageGrade() < 3) {
-                System.out.println(student.getName() + " - " + student.getGroup());
                 students.remove(student.getName());
+                System.out.println(student.getName() + " | " + student.getGroup());
             }
     }
 
@@ -51,8 +51,8 @@ public class Lesson6 {
         System.out.println("\nСледующие студенты были переведены на следующий курс: ");
         for (Student student : students)
             if (student.getAverageGrade() >= 3) {
-                System.out.println(student.getName() + " - " + student.getGroup() + " -> " + student.getCourse());
                 student.nextCourse();
+                System.out.println(student.getName() + " | " + student.getGroup() + " | " + (student.getCourse() - 1) + " -> " + student.getCourse());
             }
     }
 

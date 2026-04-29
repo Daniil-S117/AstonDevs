@@ -16,7 +16,7 @@ public class PhoneBook {
         if (book.containsKey(surname)){
             System.out.println("\n" + surname + ": " + book.get(surname));
         } else {
-            System.out.println("\nЗапись по фамилии '" + surname + "' не найдена.");
+            System.out.println("\nЗаписи по фамилии '" + surname + "' не найдена.");
         }
     }
 }
